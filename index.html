@@ -36,9 +36,19 @@
 <h2>Short Bio</h2>
 <p>I am a Ph.D. student in the <a href="http://ece.umn.edu">Department of ECE</a>, <a href="https://twin-cities.umn.edu">University of Minnesota</a>, working under the guidance of <a href="http://people.ece.umn.edu/~mhong/mingyi.html">Prof. Mingyi Hong</a>. <br /></p>
 <p></div></p>
+<p><div id="Publication"></p>
 <h2>Selected Publications</h2>
 <ul>
-<li><p><b>Haoran Sun</b>, Songtao Lu, and Mingyi Hong, &ldquo;Improving the Sample and Communication Complexity for Decentralized Non-Convex Optimization: A Joint Gradient Estimation and Tracking Approach&rdquo;, accepted by <b>International Conference on Machine Learning</b> <a href="https://icml.cc/Conferences/2020/"><b>(ICML 2020)</b></a>, available at <a href="https://proceedings.icml.cc/static/paper_files/icml/2020/1657-Paper.pdf">[ICML]</a> <a href="https://arxiv.org/pdf/1910.05857.pdf">[arXiv]</a> <a href="https://github.com/Haoran-S/DGET">[code]</a>. </p>
+<li><p><b>Haoran Sun</b>, Wenqiang Pu, Minghe Zhu, Xiao Fu, Tsung-Hui Chang, and Mingyi Hong, &ldquo;Learning to Continuously Optimize Wireless Resource In Episodically Dynamic Environment&rdquo;, Manuscript submitted for publication, available at <a href="https://arxiv.org/abs/2011.07782">[arXiv]</a> <a href="https://github.com/Haoran-S/ICASSP2021">[code]</a>.</p>
+</li>
+</ul>
+<table class="imgtable"><tr><td>
+<img src="CL.pdf" alt="1000" width="500px" />&nbsp;</td>
+<td align="left"><p>This work develops a methodology that enables data-driven methods to continuously learn and optimize in a dynamic environment. Our design is based on a novel min-max formulation which ensures certain &lsquo;&lsquo;fairness" across different data samples. Numerical results on both power control and beamforming show that the proposed CL approach is not only able to adapt to the new scenarios quickly and seamlessly, but importantly, it maintains high performance over the previously encountered scenarios as well.</p>
+<p>In the left illustration figure, the data is feeding in a sequential manner with changing episodes and distributions, and the model has a limited memory set <img class="eq" src="eqs/9856029644-130.png" alt="M" style="vertical-align: -0px" />. To maintain the good performance over all experienced data from <img class="eq" src="eqs/2784798555549127349-130.png" alt="D_1" style="vertical-align: -3px" /> to <img class="eq" src="eqs/2784798555549127410-130.png" alt="D_t" style="vertical-align: -4px" />, the proposed framework optimizes the data-driven model at each time <img class="eq" src="eqs/14848044661-130.png" alt="t" style="vertical-align: -1px" />, based on the mixture of the current data <img class="eq" src="eqs/2784798555549127410-130.png" alt="D_t" style="vertical-align: -4px" /> and the memory set <img class="eq" src="eqs/9856029644-130.png" alt="M" style="vertical-align: -0px" />. The memory set <img class="eq" src="eqs/9856029644-130.png" alt="M" style="vertical-align: -0px" /> is then updated to incorporate the new data <img class="eq" src="eqs/2784798555549127410-130.png" alt="D_t" style="vertical-align: -4px" />.</p>
+</td></tr></table>
+<ul>
+<li><p><b>Haoran Sun</b>, Songtao Lu, and Mingyi Hong, &ldquo;Improving the Sample and Communication Complexity for Decentralized Non-Convex Optimization: A Joint Gradient Estimation and Tracking Approach&rdquo;, <b>International Conference on Machine Learning</b> <a href="https://icml.cc/Conferences/2020/"><b>(ICML 2020)</b></a>, available at <a href="https://proceedings.icml.cc/static/paper_files/icml/2020/1657-Paper.pdf">[ICML]</a> <a href="https://arxiv.org/abs/1910.05857">[arXiv]</a> <a href="https://github.com/Haoran-S/DGET">[code]</a>.</p>
 </li>
 </ul>
 <table class="imgtable"><tr><td>
@@ -47,7 +57,7 @@
 <p>The left figure illustrates that our D-GET algorithm significantly improves upon the best existing bounds in terms of both sample complexity and communication complexity.  Note that there are m nodes in the system, and we treat the graph parameters such as eigengaps of Laplacian matrices as constants.</p>
 </td></tr></table>
 <ul>
-<li><p><b>Haoran Sun</b> and Mingyi Hong, &ldquo;Distributed Non-Convex First-Order Optimization and Information Processing: Lower Complexity Bounds and Rate Optimal Algorithms&rdquo;, <b>IEEE Transactions on Signal Processing</b> (2019); available at <a href="https://ieeexplore.ieee.org/document/8846721/">[IEEE Xplore]</a> <a href="https://arxiv.org/pdf/1804.02729.pdf">[arXiv]</a> <a href="https://github.com/Haoran-S/xFILTER">[code]</a>. 
+<li><p><b>Haoran Sun</b> and Mingyi Hong, &ldquo;Distributed Non-Convex First-Order Optimization and Information Processing: Lower Complexity Bounds and Rate Optimal Algorithms&rdquo;, <b>IEEE Transactions on Signal Processing</b> (2019); available at <a href="https://ieeexplore.ieee.org/document/8846721/">[IEEE Xplore]</a> <a href="https://arxiv.org/abs/1804.02729">[arXiv]</a> <a href="https://github.com/Haoran-S/xFILTER">[code]</a>.
 </p>
 </li>
 </ul>
@@ -58,7 +68,7 @@
 <p>A short version of this paper won the <font color=red size=+0.5><b> Best Student Paper Award </b></font> in 52nd Asilomar Conference on Signals, Systems, and Computers (Asilomar), October 2018. available at <a href="https://ieeexplore.ieee.org/document/8645279/">[IEEE Xplore]</a>. </p>
 </td></tr></table>
 <ul>
-<li><p><b>Haoran Sun</b>, Xiangyi Chen, Qingjiang Shi, Mingyi Hong, Xiao Fu and Nikos D. Sidiropoulos, &ldquo;Learning to Optimize: Training Deep Neural Networks for Wireless Resource Management&rdquo;, <b>IEEE Transactions on Signal Processing</b> 66.20 (2018): 5438-5453; available at <a href="https://ieeexplore.ieee.org/document/8444648/">[IEEE Xplore]</a> <a href="https://arxiv.org/pdf/1705.09412.pdf">[arXiv]</a> <a href="https://github.com/Haoran-S/SPAWC2017">[code]</a>.</p>
+<li><p><b>Haoran Sun</b>, Xiangyi Chen, Qingjiang Shi, Mingyi Hong, Xiao Fu and Nikos D. Sidiropoulos, &ldquo;Learning to Optimize: Training Deep Neural Networks for Wireless Resource Management&rdquo;, <b>IEEE Transactions on Signal Processing</b> 66.20 (2018): 5438-5453; available at <a href="https://ieeexplore.ieee.org/document/8444648/">[IEEE Xplore]</a> <a href="https://arxiv.org/abs/1705.09412">[arXiv]</a> <a href="https://github.com/Haoran-S/SPAWC2017">[code]</a>.</p>
 </li>
 </ul>
 <table class="imgtable"><tr><td>
@@ -67,6 +77,7 @@
 <p><a href="http://www.ece.virginia.edu/~nds5j/index.html">Prof. Nikos Sidiropoulos (ECE at University of Virginia)</a> gave a Keynote at ICC Workshop &lsquo;&lsquo;Machine Learning for Communications&rsquo;&rsquo; about this paper. See the slides <a href="NikosICC2018ML4COMslides.pdf">here</a>.</p>
 <p>The IEEE Communications Society (ComSoc) has provided a list of papers for “<a href="https://www.comsoc.org/publications/best-readings/machine-learning-communications"><b>Best Readings in Machine Learning in Communications</b></a>”. This paper is included in this list for ‘‘Resource Allocation’’.</p>
 </td></tr></table>
+<p></div></p>
 <!-- Start of StatCounter Code for Default Guide -->
 <script type="text/javascript">
 var sc_project=10778481;
@@ -86,7 +97,7 @@ alt="click tracking"></a></div></noscript>
 <!-- End of StatCounter Code for Default Guide -->
 <div id="footer">
 <div id="footer-text">
-Page generated 2020-09-14 12:23:19 CDT, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+Page generated 2020-11-16 20:22:01 CST, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
 </div>
 </div>
 </td>
